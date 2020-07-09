@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c519cfa-8a0a-48b8-964d-e8371d83de92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Domain/Better-Audio-Books.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/Better-Audio-Books.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/Better-Audio-Books.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Tests/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Services/Class1.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books/Class1.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.API/Controllers/WeatherForecastController.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Tests/Class1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\lvyyl\Documents\gitrepos\better-audio-book\Better-Audio-Books\.idea\.idea.Better-Audio-Books\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1eSAfU9E8Q2zm6Ckz6LPsv3RvZo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,10 +93,52 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c519cfa-8a0a-48b8-964d-e8371d83de92" name="Default Changelist" comment="" />
+      <created>1594304723791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594304723791</updated>
+      <workItem from="1594304725738" duration="973000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size" timestamp="1594304859211">
+    <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size" timestamp="1594305704715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1594304859211" />
+    <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1594305704715" />
   </component>
 </project>
