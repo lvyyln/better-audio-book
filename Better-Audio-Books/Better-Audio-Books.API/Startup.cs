@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Better_Audio_Books.Services;
+using HtmlAgilityPack;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +25,8 @@ namespace Better_Audio_Books.API
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<HtmlWeb, HtmlWeb>();
+            services.AddTransient<IRanobeDataScrapper, RanobeDataScrapper>();
             services.AddControllers();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
