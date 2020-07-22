@@ -8,6 +8,8 @@ namespace Better_Audio_Books.Services
     public interface IRanobeDataScrapper
     {
         Task<Result<RanobeInfo>> FetchRanobeInfoAsync(string url);
+        
+        Task<Result<RanobeText>> FetchTextFromRanobe(string url);
     }
 
     public class RanobeDataScrapper : IRanobeDataScrapper
@@ -29,6 +31,11 @@ namespace Better_Audio_Books.Services
                 ?.SelectSingleNode("span").InnerHtml;
             
             return Result.Success(new RanobeInfo(ranobeName, ranobePageCount));
+        }
+
+        public Task<Result<RanobeText>> FetchTextFromRanobe(string url)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

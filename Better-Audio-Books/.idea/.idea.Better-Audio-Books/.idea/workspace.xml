@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c519cfa-8a0a-48b8-964d-e8371d83de92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/Common/Result.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/Better-Audio-Books.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/Better-Audio-Books.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Better-Audio-Books.API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Better-Audio-Books.API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Better-Audio-Books.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Better-Audio-Books.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Services/Better-Audio-Books.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/Better-Audio-Books.Services.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Tests/Better-Audio-Books.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Better-Audio-Books.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Tests/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,7 +34,6 @@
       <list>
         <option value="$PROJECT_DIR$/Better-Audio-Books.Services/Class1.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books/Class1.cs" />
-        <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.API/Controllers/WeatherForecastController.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Services/Common/Result.cs" />
@@ -54,6 +41,8 @@
         <option value="$PROJECT_DIR$/Better-Audio-Books.Tests/Class1.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" />
       </list>
     </option>
   </component>
@@ -140,6 +129,7 @@
       <workItem from="1594739646744" duration="2115000" />
       <workItem from="1594741817655" duration="170000" />
       <workItem from="1594742281907" duration="1753000" />
+      <workItem from="1595413552512" duration="769000" />
     </task>
     <servers />
   </component>
@@ -258,10 +248,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1594740495488" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1594742505280">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595414327784">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1594742505280" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595414327784" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

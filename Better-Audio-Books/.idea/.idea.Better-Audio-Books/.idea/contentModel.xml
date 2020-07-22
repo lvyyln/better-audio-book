@@ -46,6 +46,7 @@
           </e>
         </e>
         <e p="RanobeInfo.cs" t="Include" />
+        <e p="RanobeText.cs" t="Include" />
       </e>
       <e p="Better-Audio-Books.Services" t="IncludeRecursive">
         <e p="Better-Audio-Books.Services.csproj" t="IncludeRecursive" />
