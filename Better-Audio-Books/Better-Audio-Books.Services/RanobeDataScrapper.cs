@@ -1,7 +1,11 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Better_Audio_Books.Services.Common;
 using HtmlAgilityPack;
+using Microsoft.VisualBasic;
 
 namespace Better_Audio_Books.Services
 {
@@ -9,7 +13,8 @@ namespace Better_Audio_Books.Services
     {
         Task<Result<RanobeInfo>> FetchRanobeInfoAsync(string url);
         
-        Task<Result<RanobeText>> FetchTextFromRanobe(string url);
+        Result<IEnumerable<RanobeText>> FetchTextFromRanobe(string url, RanobeInfo info);
+        Task<byte[]> DownloadFile(string url);
     }
 
     public class RanobeDataScrapper : IRanobeDataScrapper
@@ -25,17 +30,51 @@ namespace Better_Audio_Books.Services
             if (htmlDocument == null) return Result.Failure<RanobeInfo>("Document is empty");
 
             var ranobeName = htmlDocument.DocumentNode.SelectSingleNode("//div[@class=\"manga-title\"]/h1")?.InnerHtml;
-            var ranobePageCount = htmlDocument.DocumentNode
-                .SelectNodes("//div[@class=\"info-list manga-info\"]//div[@class=\"info-list__row\"]")
-                .FirstOrDefault(rec => rec.SelectSingleNode("strong").InnerHtml.StartsWith("Загружено глав "))
-                ?.SelectSingleNode("span").InnerHtml;
+            var ranobeData = htmlDocument.DocumentNode
+                .SelectNodes("//div[@class=\"chapter-item__name\"]/a[@class=\"link-default\"]");
+
+            var ranobePageCount = ranobeData.Count;
+            var ranobeLinks = ranobeData.Select(rec => rec.Attributes["href"].Value);
             
-            return Result.Success(new RanobeInfo(ranobeName, ranobePageCount));
+            return Result.Success(new RanobeInfo(ranobeName, ranobePageCount, ranobeLinks.Reverse()));
         }
 
-        public Task<Result<RanobeText>> FetchTextFromRanobe(string url)
+        public Result<IEnumerable<RanobeText>> FetchTextFromRanobe(string url, RanobeInfo info)
         {
-            throw new System.NotImplementedException();
+            var htmlDocuments = info
+                .RanobeLinks
+                .Select(GetPageAsync)
+                .WaitAll()
+                .ToList();
+
+            return Result.Success(htmlDocuments.Select(rec => rec.Value));
         }
+
+        public async Task<byte[]> DownloadFile(string url)
+        {
+            var response = new System.Net.WebClient();
+            return await response.DownloadDataTaskAsync(new Uri(url));
+        }
+
+        private async Task<Result<RanobeText>> GetPageAsync(string link, int idx)
+        {
+            var doc = await _htmlWeb.LoadFromWebAsync(link);
+            if (doc == null) return Result.Failure<RanobeText>("Link invalid or website isn't working");
+            
+            var htmlNodes =
+                doc.DocumentNode?.SelectSingleNode("//div[@class=\"reader-container container container_center\"]")?.ChildNodes;
+            if (htmlNodes == null) return Result.Failure<RanobeText>("error");
+
+            var chapterName = htmlNodes.FirstOrDefault()?.InnerHtml;
+            var chapterNumber = idx;
+            var chapterContent = String.Join("\n",htmlNodes.Select(rec => rec.InnerHtml));
+            
+            return Result.Success(new RanobeText
+            {
+                ChapterName = chapterName,
+                ChapterNumber = chapterNumber,
+                Content = chapterContent
+            });
+        } 
     }
 }
