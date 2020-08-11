@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c519cfa-8a0a-48b8-964d-e8371d83de92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../WebApplication/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,24 +13,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/Common/TaskHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/Common/Result.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/37/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/42/HttpResponseMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3F58F938-8EE1-422E-8796-5D4CBF382D7D/6/WebClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA26A7AD-A95D-47DF-990D-4F352096574D/1a/8336f925/HttpResponseMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/37/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/Common/Result.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/Common/TaskHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/63/Byte.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,8 +46,8 @@
         <option value="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Services/Common/TaskHelper.cs" />
-        <option value="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" />
       </list>
     </option>
   </component>
@@ -299,10 +296,10 @@
           <line>27</line>
           <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="25">
             <startOffsets>
-              <option value="933" />
+              <option value="934" />
             </startOffsets>
             <endOffsets>
-              <option value="954" />
+              <option value="955" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
@@ -325,10 +322,10 @@
           <line>28</line>
           <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="28">
             <startOffsets>
-              <option value="963" />
+              <option value="964" />
             </startOffsets>
             <endOffsets>
-              <option value="964" />
+              <option value="965" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="54" />

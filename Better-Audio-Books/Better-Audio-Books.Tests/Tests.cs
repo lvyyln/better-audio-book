@@ -24,7 +24,7 @@ namespace Better_Audio_Books.Tests
             var data = await _scrapper.FetchRanobeInfoAsync(RanobeUrl);
             var text = _scrapper.FetchTextFromRanobe(RanobeUrl, data.Value).Value.Select(rec => rec.Content).ToList();
             var tasks = await Task.WhenAll(text.Select(rec => _scrapper.DownloadFile(rec)));
-            File.WriteAllBytes(@".\test.mp3",Combine(tasks));
+            File.WriteAllBytes(@".\test.mp3", Combine(tasks));
             Assert.NotNull(data);
         }
         
