@@ -15,8 +15,6 @@ namespace Better_Audio_Books.Tests
     {
         private const string RanobeUrl = "https://ranobelib.me/the-first-hunter-novel";
 
-        private const string AudioUrl =
-            "https://tts.voicetech.yandex.net/generate?key=22fe10e2-aa2f-4a58-a934-54f2c1c4d908&text={0}&format=mp3&lang=ru-RU&speed=1&emotion=neutral&speaker=ermilov&robot=1";
 
         private readonly RanobeDataScrapper _scrapper = new RanobeDataScrapper(new HtmlWeb());
         
@@ -25,10 +23,20 @@ namespace Better_Audio_Books.Tests
         {
             var data = await _scrapper.FetchRanobeInfoAsync(RanobeUrl);
             var text = _scrapper.FetchTextFromRanobe(RanobeUrl, data.Value).Value.Select(rec => rec.Content).ToList();
-            var tasks = text.Select(rec => _scrapper.DownloadFile(String.Format(AudioUrl, rec)));
-            var bytes = string.Join("", tasks.WaitAll());
+            var tasks = await Task.WhenAll(text.Select(rec => _scrapper.DownloadFile(rec)));
+            File.WriteAllBytes(@".\test.mp3",Combine(tasks));
             Assert.NotNull(data);
-            Assert.NotNull(bytes);
+        }
+        
+        private byte[] Combine(params byte[][] arrays)
+        {
+            byte[] rv = new byte[arrays.Sum(a => a.Length)];
+            int offset = 0;
+            foreach (byte[] array in arrays) {
+                System.Buffer.BlockCopy(array, 0, rv, offset, array.Length);
+                offset += array.Length;
+            }
+            return rv;
         }
     }
 }

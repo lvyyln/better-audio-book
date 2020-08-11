@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c519cfa-8a0a-48b8-964d-e8371d83de92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/Common/TaskHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApplication/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Better-Audio-Books/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.API/obj/Debug/netcoreapp3.1/Better-Audio-Books.API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" afterDir="false" />
     </list>
@@ -21,13 +19,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/Common/TaskHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/Common/Result.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/37/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/42/HttpResponseMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeScrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3F58F938-8EE1-422E-8796-5D4CBF382D7D/6/WebClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA26A7AD-A95D-47DF-990D-4F352096574D/1a/8336f925/HttpResponseMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Better-Audio-Books.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
@@ -46,8 +49,8 @@
         <option value="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeText.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Domain/RanobeInfo.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Services/Common/TaskHelper.cs" />
-        <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" />
         <option value="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +140,8 @@
       <workItem from="1595413552512" duration="769000" />
       <workItem from="1595417106684" duration="8104000" />
       <workItem from="1596699237276" duration="1780000" />
+      <workItem from="1597045367325" duration="3983000" />
+      <workItem from="1597053292344" duration="6799000" />
     </task>
     <servers />
   </component>
@@ -163,98 +168,120 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="179" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1594742556478" />
-    <state width="702" height="556" key="DebuggerActiveHint" timestamp="1595428102424">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="878" height="700" key="DebuggerActiveHint" timestamp="1597057665934">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="702" height="556" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1595428102424" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1595428059628">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="878" height="700" key="DebuggerActiveHint/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597057665934" />
+    <state width="1877" height="412" key="GridCell.Tab.0.bottom" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595428059628" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1595428059627">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.0.bottom/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.0.center" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595428059627" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1595428059627">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.0.center/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.0.left" timestamp="1597064662387">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595428059627" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1595428059628">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.0.left/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662387" />
+    <state width="1877" height="412" key="GridCell.Tab.0.right" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595428059628" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1595428056461">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.0.right/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.1.bottom" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595428056461" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1595428056461">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.1.bottom/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.1.center" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595428056461" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1595428056461">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.1.center/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.1.left" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595428056461" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1595428056461">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.1.left/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.1.right" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595428056461" />
-    <state width="1493" height="265" key="GridCell.Tab.2.bottom" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.1.right/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.2.bottom" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.2.center" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.2.bottom/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.2.center" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.2.left" timestamp="1595428056361">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.2.center/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.2.left" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1595428056361" />
-    <state width="1493" height="265" key="GridCell.Tab.2.right" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.2.left/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.2.right" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.3.bottom" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.2.right/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.3.bottom" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.3.center" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.3.bottom/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.3.center" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.3.left" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.3.center/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.3.left" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.3.right" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.3.left/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.3.right" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.4.bottom" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.3.right/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.4.bottom" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.4.center" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.4.bottom/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.4.center" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.4.left" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.4.center/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.4.left" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
-    <state width="1493" height="265" key="GridCell.Tab.4.right" timestamp="1595428056362">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="412" key="GridCell.Tab.4.left/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
+    <state width="1877" height="412" key="GridCell.Tab.4.right" timestamp="1597064662388">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1595428056362" />
+    <state width="1877" height="412" key="GridCell.Tab.4.right/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597064662388" />
     <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size" timestamp="1594305704715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="257" key="Rider.ProjectTemplateDialog.Size/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1594305704715" />
-    <state width="776" height="420" key="XDebugger.FullValuePopup" timestamp="1595428102421">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="970" height="529" key="XDebugger.FullValuePopup" timestamp="1597053495613">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="776" height="420" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1595428102421" />
+    <state width="970" height="529" key="XDebugger.FullValuePopup/1920.9.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1597053495613" />
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594740495488">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -269,135 +296,94 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs</url>
-          <line>29</line>
+          <line>27</line>
           <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="25">
             <startOffsets>
-              <option value="1151" />
+              <option value="933" />
             </startOffsets>
             <endOffsets>
-              <option value="1172" />
+              <option value="954" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs</url>
-          <line>26</line>
+          <line>30</line>
           <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="21">
             <startOffsets>
-              <option value="746" />
+              <option value="979" />
             </startOffsets>
             <endOffsets>
-              <option value="802" />
+              <option value="1035" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs</url>
-          <line>43</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="42">
-            <startOffsets>
-              <option value="1629" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1774" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs</url>
-          <line>30</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="24">
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="28">
             <startOffsets>
-              <option value="1185" />
+              <option value="963" />
             </startOffsets>
             <endOffsets>
-              <option value="1207" />
+              <option value="964" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs</url>
-          <line>49</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="48">
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="58">
             <startOffsets>
-              <option value="1788" />
-              <option value="1782" />
+              <option value="2164" />
             </startOffsets>
             <endOffsets>
-              <option value="1849" />
-              <option value="1795" />
+              <option value="2194" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="32" />
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs</url>
-          <line>54</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="54">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/37/HttpClient.cs</url>
+          <line>209</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D8D12B97-8555-48F6-96B3-BBC6BF89FCBA/37/HttpClient.cs" initialLine="209">
             <startOffsets>
-              <option value="1943" />
+              <option value="7459" />
             </startOffsets>
             <endOffsets>
-              <option value="1985" />
+              <option value="7501" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs</url>
-          <line>55</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="55">
-            <startOffsets>
-              <option value="2011" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2056" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs</url>
           <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="25">
+          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="26">
             <startOffsets>
-              <option value="876" />
+              <option value="871" />
             </startOffsets>
             <endOffsets>
-              <option value="982" />
+              <option value="920" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs</url>
-          <line>27</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Tests/Tests.cs" initialLine="27">
-            <startOffsets>
-              <option value="985" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1029" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs</url>
-          <line>56</line>
-          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="56">
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/Better-Audio-Books.Services/RanobeDataScrapper.cs" initialLine="63">
             <startOffsets>
-              <option value="2065" />
+              <option value="2402" />
             </startOffsets>
             <endOffsets>
-              <option value="2066" />
+              <option value="2412" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
