@@ -38,6 +38,11 @@
       <e p="Better-Audio-Books.Domain" t="IncludeRecursive">
         <e p="Better-Audio-Books.Domain.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="ByteHelper.cs" t="Include" />
+          <e p="Result.cs" t="Include" />
+          <e p="TaskHelper.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -51,10 +56,6 @@
       <e p="Better-Audio-Books.Services" t="IncludeRecursive">
         <e p="Better-Audio-Books.Services.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Common" t="Include">
-          <e p="Result.cs" t="Include" />
-          <e p="TaskHelper.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
