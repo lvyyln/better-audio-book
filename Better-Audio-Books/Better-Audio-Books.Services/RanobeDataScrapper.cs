@@ -67,30 +67,14 @@ namespace Better_Audio_Books.Services
                     ?.ChildNodes;
                 if (htmlNodes == null) return Result.Failure<RanobeText>("error");
             }
-
-            var chapterName = htmlNodes.FirstOrDefault()?.InnerHtml;
-            var chapterNumber = idx;
-            var chapterContent = String.Join("\n", htmlNodes.Select(rec => rec.InnerHtml));
-
+            
             return Result.Success(new RanobeText
             {
-                ChapterName = chapterName,
-                ChapterNumber = chapterNumber,
-                Content = chapterContent
+                ChapterName = htmlNodes.FirstOrDefault()?.InnerHtml,
+                ChapterNumber = idx,
+                Content = String.Join("\n", htmlNodes.Select(rec => rec.InnerHtml))
             });
         }
 
-        private byte[] Combine(params byte[][] arrays)
-        {
-            byte[] rv = new byte[arrays.Sum(a => a.Length)];
-            int offset = 0;
-            foreach (byte[] array in arrays)
-            {
-                System.Buffer.BlockCopy(array, 0, rv, offset, array.Length);
-                offset += array.Length;
-            }
-
-            return rv;
-        }
     }
 }

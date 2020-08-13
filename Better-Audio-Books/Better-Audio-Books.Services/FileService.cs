@@ -11,7 +11,7 @@ namespace Better_Audio_Books.Services
         Task<byte[]> DownloadFile(string url);
     }
 
-    public class RanobeScrapper
+    public class FileService
     {
         private const string AudioUrl =
             "https://tts.voicetech.yandex.net/generate?key=22fe10e2-aa2f-4a58-a934-54f2c1c4d908&text={0}&format=mp3&lang=ru-RU&speed=1&emotion=neutral&speaker=ermilov&robot=1";
